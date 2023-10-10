@@ -60,5 +60,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 
 ![Signatures](src/MaxSignature.PNG)
-![Signatures](src/McCaffrey_Signature)
+
+![Signatures](src/McCaffrey_Signature.PNG)
+
 ![Signatures](src/signature.PNG)
