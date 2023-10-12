@@ -59,9 +59,11 @@ For answers to common questions about this code of conduct, see the FAQ at
 [translations]: https://www.contributor-covenant.org/translations
 
 
-![Signatures](src/MaxSignature.PNG)
-<img src ="src/MaxSignature.PNG" width = "100">
-![Signatures](src/McCaffrey_Signature.png)
-<img src ="src/McCaffrey_Signature.png" width = "100">
-![Signatures](src/signature.PNG)
-<img src ="src/signature.PNG" width = "100">
+
+<img src ="src/MaxSignature.PNG" width = "400">
+
+<img src ="src/McCaffrey_Signature.png" width = "400">
+
+<img src ="src/signature.PNG" width = "400">
+
+<img src="src/Screenshot 2023-10-10 152228.png" width = "400">
