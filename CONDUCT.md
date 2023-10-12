@@ -60,7 +60,8 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 
 ![Signatures](src/MaxSignature.PNG)
-<img src ="MaxSignature.PNG" width = "100" height = "100">
+<img src ="MaxSignature.PNG" width = "100">
 ![Signatures](src/McCaffrey_Signature.png)
-
+<img src ="McCaffrey_Signature.png" width = "100">
 ![Signatures](src/signature.PNG)
+<img src ="signature.PNG" width = "100">
