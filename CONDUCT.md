@@ -59,7 +59,7 @@ For answers to common questions about this code of conduct, see the FAQ at
 [translations]: https://www.contributor-covenant.org/translations
 
 
-![Signatures](src/MaxSignature.PNG = 250x250)
+![Signatures](src/MaxSignature.PNG =250x250)
 
 ![Signatures](src/McCaffrey_Signature.png)
 
