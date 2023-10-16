@@ -39,3 +39,11 @@ USER STORY: AS A BACKEND ADMINISTRATOR OF BRAINSHARE, I WANT TO MANAGE THE USERS
 * Ability to add data for users
 * Have a JSON schema for consistency
 * Have user authentication through firebase
+
+## User Story 6
+USER STORY: AS A RECENT GRADUATE STUDENT, CONNECT WITH MY FRIENDS AND COLLEAGUES AND SHARE INFORMATION
+
+## Acceptance Criteria
+* Ability to search for users
+* Impliment search add system
+* Share information using links
