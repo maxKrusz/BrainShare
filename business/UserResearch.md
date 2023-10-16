@@ -27,3 +27,13 @@ A lot of people are around 20 years old.
 
 ## Team Action:
 Work on tailoring the front end and features to this demographic.
+
+# Observation 4
+## Observation Statement:
+Most of the features that people liked from similiar services were video tutorials and practice problems.
+
+## Supporting Data:
+10 of 16 respones made note of at least one of the aforementioned features.
+
+## Team Action:
+Discuss implimenting these forms of learning into our product.
