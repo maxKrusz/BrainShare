@@ -23,7 +23,7 @@ Make the app free, utilize paid ads instead.
 A lot of people are around 20 years old.
 
 ## Supporting Data:
-9 of the 16 people are 19 or 20.
+9 of the 17 people are 19 or 20.
 
 ## Team Action:
 Work on tailoring the front end and features to this demographic.
@@ -33,7 +33,7 @@ Work on tailoring the front end and features to this demographic.
 Most of the features that people liked from similiar services were video tutorials and practice problems.
 
 ## Supporting Data:
-10 of 16 respones made note of at least one of the aforementioned features.
+10 of 17 responses made note of at least one of the aforementioned features.
 
 ## Team Action:
 Discuss implimenting these forms of learning into our product.
