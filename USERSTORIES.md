@@ -24,6 +24,14 @@ AS A PRIMARY SCHOOL STUDENT, INSTEAD OF HAVING TO SPEND A LONG TIME LEARNING MAT
 * Users are able to set a time limit for their learning sessions
 * Users are able to define their own time limits for materials
 
+## User Story 5
+AS AN ASPIRING SELF-TAUGHT PROFESSIONAL FINDING THE ANSWERS CAN BE DIFFICULT, I WANT QUICK ACCESS TO INFORMATION.
+
+## Acceptance Criteria
+* Ability to add users and exchange information
+* Implement AI assistant to ask questions/do tasks
+* Ability to search for educational resources in app
+
 ## User Story 4
 USER STORY: AS A BACKEND ADMINISTRATOR OF BRAINSHARE, I WANT TO MANAGE THE USERS AND USER INFORMATION/CREDENTIALS IN THE FIREBASE BACKEND
 
