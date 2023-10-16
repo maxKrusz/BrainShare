@@ -1,3 +1,11 @@
+## User Story 1
+USER STORY: AS A GENERAL USER OF BRAINSHARE, I WANT TO STORE/ORGANIZE MY NOTES IN AN EASY FORMAT
+
+## Acceptance Criteria
+* Ability to upload notes in the form of a file
+* Ability to add tags to certain notes for organizations
+* Ability to share notes with my friends
+
 ## User Story 2
 AS A PRIMARY SCHOOL STUDENT, INSTEAD OF BEING FORCED TO LEARN IN A SINGLE WAY, I WANT TO CHOOSE HOW I CAN LEARN IN BRAINSHARE.
 
@@ -23,3 +31,11 @@ AS AN ASPIRING SELF-TAUGHT PROFESSIONAL FINDING THE ANSWERS CAN BE DIFFICULT, I 
 * Ability to add users and exchange information
 * Implement AI assistant to ask questions/do tasks
 * Ability to search for educational resources in app
+
+## User Story 4
+USER STORY: AS A BACKEND ADMINISTRATOR OF BRAINSHARE, I WANT TO MANAGE THE USERS AND USER INFORMATION/CREDENTIALS IN THE FIREBASE BACKEND
+
+## Acceptance Criteria
+* Ability to add data for users
+* Have a JSON schema for consistency
+* Have user authentication through firebase
