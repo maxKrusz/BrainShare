@@ -41,10 +41,17 @@ USER STORY: AS A RECENT GRADUATE STUDENT, CONNECT WITH MY FRIENDS AND COLLEAGUES
 * Share information using links
 
 ## User Story 6
-AS AN ASPIRING SELF-TAUGHT PROFESSIONAL FINDING THE ANSWERS CAN BE DIFFICULT, I WANT QUICK ACCESS TO INFORMATION.
+USER STORY: AS AN ASPIRING SELF-TAUGHT PROFESSIONAL FINDING THE ANSWERS CAN BE DIFFICULT, I WANT QUICK ACCESS TO INFORMATION.
 
 ### Acceptance Criteria
 * Ability to add users and exchange information
 * Implement AI assistant to ask questions/do tasks
 * Ability to search for educational resources in app
 
+## User Story 7
+USER STORY: AS A GENERAL USER, I WANT TO BE ABLE TO LOGIN TO MY BRAINSHARE ACCOUNT
+
+### Acceptance Criteria
+* User can sign up for BrainShare
+* User can sign into BrainShare
+* User can sign out of BrainShare
