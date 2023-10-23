@@ -4,13 +4,44 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "children": [],
+                            "id": "715cae73-9b23-43ee-928d-39943faff1fd",
+                            "thunkableVersion": 425,
+                            "name": "Web_API2"
+                        },
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "children": [],
+                            "id": "4c13c874-03a3-4192-a69b-de62b06e1a2c",
+                            "thunkableVersion": 425,
+                            "name": "Web_API1"
+                        }
+                    ]
                 }
             },
             "assets": {},
             "backendUpgradeVersion": 22,
             "blockly": {
-                "9fb4333a-9397-4d06-8947-057ea9c6d3a8": {
+                "c51ac3f3-ab92-4939-a406-e839d4e294da": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "f3dc34f0-88b7-4e2c-8139-c07186aa3697": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -31,16 +62,19 @@
                     },
                     {
                         "id": "f3dc34f0-88b7-4e2c-8139-c07186aa3697"
+                    },
+                    {
+                        "id": "c51ac3f3-ab92-4939-a406-e839d4e294da"
                     }
                 ]
             },
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "BrainShare",
+            "projectName": "BrainShare copy1",
             "settings": {
                 "teamId": null,
-                "appName": "BrainShare",
+                "appName": "brainShare",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -50,7 +84,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
-                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -84,7 +118,7 @@
             },
             "projectSettings": {
                 "teamId": null,
-                "appName": "BrainShare",
+                "appName": "brainShare",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -94,7 +128,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
-                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com/",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -138,7 +172,13 @@
             "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "88834e29-39bb-4f7d-82ae-61bbeb15294c": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "c51ac3f3-ab92-4939-a406-e839d4e294da"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
