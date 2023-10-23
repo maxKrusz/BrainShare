@@ -103,13 +103,13 @@
             "translatedName": "Text Input",
             "properties": {
                 "Hint": "Type here",
-                "Height": 37,
-                "Width": 311,
+                "Height": 41,
+                "Width": 315,
                 "Visible": true,
-                "X": 23,
-                "Y": 171,
-                "RelativeX": 23,
-                "RelativeY": 171,
+                "X": 24.33333396911621,
+                "Y": 172.33334350585938,
+                "RelativeX": 24.33333396911621,
+                "RelativeY": 172.33334350585938,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -153,7 +153,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "c51ac3f3-ab92-4939-a406-e839d4e294da",
                 "position": "absolute",
-                "edgeOffsets": 171,
+                "edgeOffsets": 172.33334350585938,
                 "placeholder": "Type here"
             },
             "children": [],
@@ -325,7 +325,8 @@
                 },
                 "ParentId": "c51ac3f3-ab92-4939-a406-e839d4e294da",
                 "position": "absolute",
-                "edgeOffsets": 0
+                "edgeOffsets": 0,
+                "Picture": "Share_3.png"
             },
             "children": [],
             "id": "792f3654-1c69-4331-82b3-24612ee4054f",

@@ -28,7 +28,24 @@
                     ]
                 }
             },
-            "assets": {},
+            "assets": {
+                "6536ca95337f830cf039e62c": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536ca95337f830cf039e62c",
+                    "size": "30888",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Share_3.png",
+                    "backendURI": "/project/6536c0e4a420ab4859688ddf/getasset/6536ca95337f830cf039e62c",
+                    "name": "Share_3.png",
+                    "externalName": "users/64f9cf139e120672bf02d03e/projects/6536c0e4a420ab4859688ddf/assets/6536ca95337f830cf039e62c",
+                    "createdAt": "2023-10-23T19:33:42.003Z",
+                    "updatedAt": "2023-10-23T19:33:42.003Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf139e120672bf02d03e/projects/6536c0e4a420ab4859688ddf/assets/6536ca95337f830cf039e62c?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T193342Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7fd35b63add8a1514d598ca6b0f8ab9b2103e86398d8cd9202e65db32210300fb4a505d840b77c89cd3469e06ab47993baf24e1d56ced05a0f06a7c99f888b74ce470c13cccb203f2bc3d71eecb77d99b90f8af30305a385ea7fe6ac49c32b992b594b67b9b3e3d54b3f8adfff05ea57e8662691d889680613665bba58ddaed28d436e69be5046b22a29d2798e38221fafb9144061426eeee1bfa59626e9996d82888c043fdba1d0d9409bb050f14631e5f6301ca80a191f815a174768b0fe099a0127355491edb52f42b1bf1fa9b2d21ee128297d51b43c33a9b4529444af8a166af191c9f209a9f725eb0f2720879d3883fce238521aa88e6424a422cccf0f",
+                    "signedUrlExpirationTime": 1698262422035
+                }
+            },
             "backendUpgradeVersion": 22,
             "blockly": {
                 "c51ac3f3-ab92-4939-a406-e839d4e294da": {
@@ -42,6 +59,16 @@
                     }
                 },
                 "f3dc34f0-88b7-4e2c-8139-c07186aa3697": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "9fb4333a-9397-4d06-8947-057ea9c6d3a8": {
                     "xml": "",
                     "permissions": {
                         "android": [],
