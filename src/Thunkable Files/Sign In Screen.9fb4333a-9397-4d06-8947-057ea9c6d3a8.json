@@ -240,7 +240,7 @@
             ],
             "id": "9eb32d38-a647-4222-ae3c-a935675a8807",
             "thunkableVersion": 424,
-            "name": "Group2"
+            "name": "SaveCredentialsGroup"
         },
         {
             "type": "Group",
@@ -248,20 +248,20 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 53,
-                "Width": 209,
+                "Height": 55,
+                "Width": 211,
                 "Visible": true,
-                "X": 84,
-                "Y": 425,
-                "RelativeX": 84,
-                "RelativeY": 425,
+                "X": 83.99305725097656,
+                "Y": 424.9884338378906,
+                "RelativeX": 83.99305725097656,
+                "RelativeY": 424.9884338378906,
                 "ResizeMode": "STRETCH",
                 "BackgroundPictureResizeMode": "contain",
                 "Position": "Relative to Screen",
                 "TouchOpacity": 20,
                 "ParentId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
                 "position": "absolute",
-                "edgeOffsets": 425,
+                "edgeOffsets": 424.9884338378906,
                 "style": {
                     "position": "absolute",
                     "left": "20.133333333333333%",
@@ -285,8 +285,8 @@
                         "Visible": true,
                         "X": 198,
                         "Y": 427,
-                        "RelativeX": 114,
-                        "RelativeY": 2,
+                        "RelativeX": 114.00694274902344,
+                        "RelativeY": 2.011566162109375,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -323,7 +323,7 @@
                     "id": "98698d8f-c410-4905-9957-99a9cd22bfac",
                     "thunkableVersion": 424,
                     "bindings": null,
-                    "name": "Button2"
+                    "name": "GoToRegistrationButton"
                 },
                 {
                     "type": "Label",
@@ -340,8 +340,8 @@
                         "Visible": true,
                         "X": 91,
                         "Y": 433,
-                        "RelativeX": 7,
-                        "RelativeY": 8,
+                        "RelativeX": 7.0069427490234375,
+                        "RelativeY": 8.011566162109375,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "color": "rgba(0, 0, 0, 1)",
@@ -392,7 +392,7 @@
             ],
             "id": "3e0577e3-84f5-4d67-8c53-bbdcb8503117",
             "thunkableVersion": 424,
-            "name": "Group1"
+            "name": "RegistrationGroup"
         },
         {
             "type": "Button",
@@ -403,13 +403,13 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(0, 0, 0, 0)",
-                "Height": 25,
-                "Width": 157,
+                "Height": 27,
+                "Width": 159,
                 "Visible": true,
-                "X": 109,
-                "Y": 468,
-                "RelativeX": 109,
-                "RelativeY": 468,
+                "X": 108.99305725097656,
+                "Y": 467.9977111816406,
+                "RelativeX": 108.99305725097656,
+                "RelativeY": 467.9977111816406,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -440,13 +440,13 @@
                 "Disabled": false,
                 "ParentId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
                 "position": "absolute",
-                "edgeOffsets": 468.99999999999994
+                "edgeOffsets": 467.9977111816406
             },
             "children": [],
             "id": "f1619d04-0d60-404a-8275-e9e2a30bd558",
             "thunkableVersion": 424,
             "bindings": null,
-            "name": "Button3"
+            "name": "ForgotPasswordButton"
         },
         {
             "type": "Button",
@@ -499,7 +499,7 @@
             "children": [],
             "id": "7b1011fb-4b4f-43d9-9085-fcf12ca37526",
             "thunkableVersion": 424,
-            "name": "Button1"
+            "name": "SignInButton"
         },
         {
             "type": "TextInput",
@@ -557,13 +557,14 @@
                 "ParentId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
                 "position": "absolute",
                 "edgeOffsets": 292,
-                "placeholder": "Password"
+                "placeholder": "Password",
+                "secureTextEntry": true
             },
             "children": [],
             "id": "ef4b45db-cfbe-4f93-a92f-daf09554d8a4",
             "thunkableVersion": 424,
             "bindings": null,
-            "name": "Text_Input2"
+            "name": "Password_Input"
         },
         {
             "type": "TextInput",
@@ -626,20 +627,21 @@
             "children": [],
             "id": "05a5b614-0b88-4a93-892b-22bcd94895c0",
             "thunkableVersion": 424,
-            "name": "Text_Input1"
+            "name": "Email_Input"
         },
         {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
-                "Height": 111,
-                "Width": 218,
+                "Picture": "Share (5).png",
+                "resizeMode": "contain",
+                "Height": 325,
+                "Width": 325,
                 "Visible": true,
-                "X": 78,
-                "Y": 97,
-                "RelativeX": 78,
-                "RelativeY": 97,
+                "X": 34,
+                "Y": 14,
+                "RelativeX": 34,
+                "RelativeY": 14,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -659,18 +661,20 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "38.8%",
-                    "top": "8.702679910044978%",
+                    "left": "48.666666666666664%",
+                    "top": "22.338830584707647%",
                     "display": "flex"
                 },
-                "ParentId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
+                "capInsets": {},
+                "ParentId": "f3dc34f0-88b7-4e2c-8139-c07186aa3697",
                 "position": "absolute",
-                "edgeOffsets": 97
+                "edgeOffsets": 14
             },
             "children": [],
-            "id": "b7657d4f-f622-4296-adc3-f8c488822cdf",
-            "thunkableVersion": 424,
-            "name": "Image1"
+            "id": "771c24c1-87a1-4946-94d7-965cc6983b23",
+            "thunkableVersion": 425,
+            "bindings": null,
+            "name": "Logo2"
         }
     ],
     "id": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",

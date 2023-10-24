@@ -4,60 +4,77 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": [
-                        {
-                            "type": "Web API",
-                            "translatedName": "Web API",
-                            "isApi": true,
-                            "reactType": "Web",
-                            "children": [],
-                            "id": "715cae73-9b23-43ee-928d-39943faff1fd",
-                            "thunkableVersion": 425,
-                            "name": "Web_API2"
-                        },
-                        {
-                            "type": "Web API",
-                            "translatedName": "Web API",
-                            "isApi": true,
-                            "reactType": "Web",
-                            "children": [],
-                            "id": "4c13c874-03a3-4192-a69b-de62b06e1a2c",
-                            "thunkableVersion": 425,
-                            "name": "Web_API1"
-                        }
-                    ]
+                    "children": []
                 }
             },
             "assets": {
-                "6536ca95337f830cf039e62c": {
+                "6536d3d47e3136b28f90c97d": {
                     "externalStorageType": "GCS",
-                    "_id": "6536ca95337f830cf039e62c",
-                    "size": "30888",
+                    "_id": "6536d3d47e3136b28f90c97d",
+                    "size": "30372",
                     "mimetype": "image/png",
                     "encoding": "7bit",
-                    "originalname": "Share_3.png",
-                    "backendURI": "/project/6536c0e4a420ab4859688ddf/getasset/6536ca95337f830cf039e62c",
-                    "name": "Share_3.png",
-                    "externalName": "users/64f9cf139e120672bf02d03e/projects/6536c0e4a420ab4859688ddf/assets/6536ca95337f830cf039e62c",
-                    "createdAt": "2023-10-23T19:33:42.003Z",
-                    "updatedAt": "2023-10-23T19:33:42.003Z",
+                    "originalname": "Untitled_design.png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d3d47e3136b28f90c97d",
+                    "name": "Untitled_design.png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d3d47e3136b28f90c97d",
+                    "createdAt": "2023-10-23T20:13:08.220Z",
+                    "updatedAt": "2023-10-23T20:13:08.220Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cf139e120672bf02d03e/projects/6536c0e4a420ab4859688ddf/assets/6536ca95337f830cf039e62c?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T193342Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7fd35b63add8a1514d598ca6b0f8ab9b2103e86398d8cd9202e65db32210300fb4a505d840b77c89cd3469e06ab47993baf24e1d56ced05a0f06a7c99f888b74ce470c13cccb203f2bc3d71eecb77d99b90f8af30305a385ea7fe6ac49c32b992b594b67b9b3e3d54b3f8adfff05ea57e8662691d889680613665bba58ddaed28d436e69be5046b22a29d2798e38221fafb9144061426eeee1bfa59626e9996d82888c043fdba1d0d9409bb050f14631e5f6301ca80a191f815a174768b0fe099a0127355491edb52f42b1bf1fa9b2d21ee128297d51b43c33a9b4529444af8a166af191c9f209a9f725eb0f2720879d3883fce238521aa88e6424a422cccf0f",
-                    "signedUrlExpirationTime": 1698262422035
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d3d47e3136b28f90c97d?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T201308Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=b511c99ca378432c4b8764e44f98af5959e6399572145bd87f854236f50b9a230189637c04e48017f75a76f8d3865241d06a98b4f7f3494d1ff400b21632b1ebf824406d97e5f12c5a50e9c6d9463218a52c7d68640dc56b4fdfcb5a4e396779e1448435e307ececd7097b9a622525362ecc3a87f8813bd9f22bc31cd671080c2b7f0921391a7afbe4afe43638415af1649790bc052babdf7cee7b477e3181225edb26d002a79c6225cc403e201730c04c2bf46f8e5c0cc6d0f524b06f953eb1fad7006578f61dfbb496038fd61b92df90c8ec46eb35f1100991b1113e516cb999f9570562ec327ef05b073e21485249aec470137bd06985aad7f297690b5305",
+                    "signedUrlExpirationTime": 1698264788253
+                },
+                "6536d497a420ab956b690f6f": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d497a420ab956b690f6f",
+                    "size": "30346",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Untitled design.png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d497a420ab956b690f6f",
+                    "name": "Untitled design.png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d497a420ab956b690f6f",
+                    "createdAt": "2023-10-23T20:16:23.975Z",
+                    "updatedAt": "2023-10-23T20:16:23.975Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d497a420ab956b690f6f?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T201624Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=bcd0bf8ea6180951e85889309fab2722bef5dfb613cf91e14c1d61d4f6141cca7283f1642a1fa98d22560ad0a1daedf04857c1b26eb6d4f694a1a412ba49942abc99673d9448d3a488149604e4e7bdb30e939573c07c23d27194ad7a91977b2482c7cfba0214446188166155a189196d18a706695a36f0dccf2aae30fca5409b63aec92883d9cc31e2bdc2845db8ca0034715989954cd634a5932e755dc32fbc4ec8c99a81656247c49c3600767a833ec5c75850cd1466f9e25862f41adeea063243505755b5797c0dcb1a9988a1ebf899e2eeaf795ec7dc92949a8888dc405f9f665129df3df1ab24857b7cbd4ce17629513d1aa91a4f0473db92f2f67ace37",
+                    "signedUrlExpirationTime": 1698264984008
+                },
+                "6536d4d8337f8333b83a1e56": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d4d8337f8333b83a1e56",
+                    "size": "62479",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Untitled design (1).png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d4d8337f8333b83a1e56",
+                    "name": "Untitled design (1).png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d4d8337f8333b83a1e56",
+                    "createdAt": "2023-10-23T20:17:29.008Z",
+                    "updatedAt": "2023-10-23T20:17:29.008Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d4d8337f8333b83a1e56?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T201729Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=8cf17a21746d448f89cac51879206bf539d9bd5e1b877c1f1a2f8e27f36975d9e1d898c5f00174bc74ce491ac2bfbb113f179ea40ee6a49458aea877e42f780ef67e44b5393ea2e8db2b81731fbad14c7bb2aa67bcba5fb6c272fa2803f14174f5bde3f850c0f1a841c1e29f8d77751bca313fdc25f362582f2273e686d1204358f830017c9545d5b58189e4b6470859db77d1d1af912dcfcafba1f55fa008c102d221262bbae6466737f8e6a44ae6038aed643f8e939ad37292a02f7464bdc9986d3edbdad3be522d5e12fb713fab108893625c28fc7e578ed60f337336cbc1a46781aaa0c0f7ed3f445f4a00c5471fc8951b920420629315e6e29ae6c847f3",
+                    "signedUrlExpirationTime": 1698265049065
+                },
+                "6536d8e6337f835b213a356b": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d8e6337f835b213a356b",
+                    "size": "22783",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Share (5).png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d8e6337f835b213a356b",
+                    "name": "Share (5).png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d8e6337f835b213a356b",
+                    "createdAt": "2023-10-23T20:34:46.829Z",
+                    "updatedAt": "2023-10-23T20:34:46.829Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d8e6337f835b213a356b?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231023%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231023T203446Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4e813e03750a69a84394766e49ad22ae372fef20bf04376437bf261b283e2af6525d724740ffb3827c72f3ee8a27da589a58a694dafa55cff55bf29f23059229136aa019b95068fac30a46b98d83574fe131f46ec33577b0e873acdd780c46c709783a881279a4dace7579d3a6ca3541a651ced257608413215c5c4932c95b0736b926fe0e77a80ee6c941eb0f272fba90ebbc3740b0db8b9c6dc0e580dabd56943319ad7d543ac67ec5bac580d1b49a073627fa28ca451cac58dab492d6b831ce556957daffedab2be82a91d84c97d74bf1aba77d4a06277b339f7444a89caef2255f46a6d6077d9f488d730e28a2d51e725aa04359e70a3a7e4d3e00decb97",
+                    "signedUrlExpirationTime": 1698266086863
                 }
             },
             "backendUpgradeVersion": 22,
             "blockly": {
-                "c51ac3f3-ab92-4939-a406-e839d4e294da": {
-                    "xml": "",
-                    "permissions": {
-                        "android": [],
-                        "ios": []
-                    },
-                    "enabledFeatures": {
-                        "iap": false
-                    }
-                },
                 "f3dc34f0-88b7-4e2c-8139-c07186aa3697": {
                     "xml": "",
                     "permissions": {
@@ -89,19 +106,16 @@
                     },
                     {
                         "id": "f3dc34f0-88b7-4e2c-8139-c07186aa3697"
-                    },
-                    {
-                        "id": "c51ac3f3-ab92-4939-a406-e839d4e294da"
                     }
                 ]
             },
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "BrainShare copy1",
+            "projectName": "BrainShare",
             "settings": {
                 "teamId": null,
-                "appName": "brainShare",
+                "appName": "BrainShare",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -111,7 +125,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
-                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com/",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -145,7 +159,7 @@
             },
             "projectSettings": {
                 "teamId": null,
-                "appName": "brainShare",
+                "appName": "BrainShare",
                 "icon": null,
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
@@ -155,7 +169,7 @@
                 "iosVersionNumber": "1",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
-                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com/",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
                 "stripePublishableKeyTest": null,
                 "stripePublishableKeyLive": null,
                 "stripeAccountId": null,
@@ -200,10 +214,30 @@
             "totalStar": "0",
             "starAction": "star",
             "variables": {
-                "88834e29-39bb-4f7d-82ae-61bbeb15294c": {
+                "5a851150-1c6f-4937-8c75-6a153ee8d4a6": {
+                    "scope": "APP",
+                    "name": "currentlySigningIn",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "70a5221a-afaa-4641-8b6c-4927e6e9a279": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "731a7e6d-904e-4551-8c2c-935b97da784b": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "8d26ea6b-5a9b-432a-8bcc-baacd51f1293": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "6021f74e-b82b-4a4c-8221-64995c0242ac": {
                     "scope": "APP",
                     "name": "user ID",
-                    "screenId": "c51ac3f3-ab92-4939-a406-e839d4e294da"
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
                 }
             },
             "defaultDesignerDevice": "PHONE",
