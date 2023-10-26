@@ -1,4 +1,5 @@
 {
+    "id": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -677,7 +678,6 @@
             "name": "Logo2"
         }
     ],
-    "id": "9fb4333a-9397-4d06-8947-057ea9c6d3a8",
     "thunkableVersion": 424,
     "name": "Sign In Screen"
 }
