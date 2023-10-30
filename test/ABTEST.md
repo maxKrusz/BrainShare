@@ -21,19 +21,19 @@ By changing our logo, we will be able to increase the adoption rate of our app. 
 We will use Firebase Remote Config to publish several different app versions, with each variation having a different logo/color scheme. This experiment will be run for one month, in which all app downloads will receive a different logo/color scheme for the application. Then, we will collect analytics regarding the app download rate and sign up rate to determine which logo/color scheme is the most effective.
 ### Variations -
 * Logo 1:
-<img src ="../src/Logo1.PNG" width = "400">
+<img src ="../src/Logo1.png" width = "400">
 
 * Logo 2:
-<img src ="../src/Logo2.PNG" width = "400">
+<img src ="../src/Logo2.png" width = "400">
 
 * Logo 3:
-<img src ="../src/Logo3.PNG" width = "400">
+<img src ="../src/Logo3.png" width = "400">
 
 * Logo 4:
-<img src ="../src/Logo4.PNG" width = "400">
+<img src ="../src/Logo4.png" width = "400">
 
 * Logo 5:
-<img src ="../src/Logo5.PNG" width = "400">
+<img src ="../src/Logo5.png" width = "400">
 
 * Logo 6:
-<img src ="../src/Logo6.PNG" width = "400">
+<img src ="../src/Logo6.png" width = "400">
