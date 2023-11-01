@@ -1,4 +1,5 @@
 {
+    "id": "bb070840-aaac-4db1-a917-8858aea96e4d",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,7 +55,6 @@
         "tabNavigationOptions": {}
     },
     "children": [],
-    "id": "bb070840-aaac-4db1-a917-8858aea96e4d",
     "thunkableVersion": 426,
     "name": "Friend management"
 }

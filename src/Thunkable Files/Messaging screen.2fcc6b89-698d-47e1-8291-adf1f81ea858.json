@@ -1,4 +1,5 @@
 {
+    "id": "2fcc6b89-698d-47e1-8291-adf1f81ea858",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -237,7 +238,6 @@
             "name": "input_txtInput"
         }
     ],
-    "id": "2fcc6b89-698d-47e1-8291-adf1f81ea858",
     "thunkableVersion": 426,
     "name": "Messaging screen"
 }
