@@ -1,4 +1,5 @@
 {
+    "id": "471836d4-bea7-482e-82ce-2b0b1a0a2327",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,7 +55,6 @@
         "tabNavigationOptions": {}
     },
     "children": [],
-    "id": "471836d4-bea7-482e-82ce-2b0b1a0a2327",
     "thunkableVersion": 426,
     "name": "File Upload"
 }

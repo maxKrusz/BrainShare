@@ -1,4 +1,5 @@
 {
+    "id": "46b9f847-2be7-4267-9700-07f15f421058",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -54,7 +55,6 @@
         "tabNavigationOptions": {}
     },
     "children": [],
-    "id": "46b9f847-2be7-4267-9700-07f15f421058",
     "thunkableVersion": 426,
     "name": "Label Creation"
 }
