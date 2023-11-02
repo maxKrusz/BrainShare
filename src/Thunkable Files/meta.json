@@ -325,6 +325,11 @@
                     "scope": "APP",
                     "name": "displayedUserList",
                     "screenId": "77afbc43-6ee6-4a6d-94e5-7a4e81b47553"
+                },
+                "98fd111d-4664-453e-a01b-4f9a7762a929": {
+                    "scope": "APP",
+                    "name": "friendList",
+                    "screenId": "bb070840-aaac-4db1-a917-8858aea96e4d"
                 }
             },
             "defaultDesignerDevice": "PHONE",
