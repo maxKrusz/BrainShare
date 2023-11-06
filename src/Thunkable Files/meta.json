@@ -134,6 +134,16 @@
                     "enabledFeatures": {
                         "iap": false
                     }
+                },
+                "2fcc6b89-698d-47e1-8291-adf1f81ea858": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [
@@ -273,7 +283,95 @@
             "hasPushNotification": false,
             "hasAssistant": null,
             "dataSourceLinks": [],
-            "localDataSources": [],
+            "localDataSources": [
+                {
+                    "id": "bb7b2d40-d9a1-4726-85b6-f80b81706db9",
+                    "dataSource": {
+                        "id": "5a71b0c8-7533-4b39-bfcb-2a7d2c41368d",
+                        "name": "messages",
+                        "owner": "64f9cf139e120672bf02d03e",
+                        "collections": [
+                            {
+                                "id": "d34bc05b-df66-4949-b7ec-70025a6603ce",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                        "name": "column1",
+                                        "label": "Column 1",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                        "name": "column2",
+                                        "label": "Column 2",
+                                        "type": "NUMBER"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "f531571e-78c7-4b9d-9914-210ad4a8938f",
+                                            "node": {
+                                                "id": "639d9e8e-149d-4e74-a469-6dc80ce05789",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "1d424269-94a1-4714-b590-287e48f5d163",
+                                            "node": {
+                                                "id": "554c3ae1-7b1b-4422-a868-f43467e7af16",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "4a21675a-8590-4774-90df-5afe3df52c06",
+                                            "node": {
+                                                "id": "b4b57aea-20d9-42ef-95b9-c9dec3661035",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "8e2b978b-ae0a-48c8-8a99-8e1a77e52d36",
+                            "name": "messages",
+                            "owner": "64f9cf139e120672bf02d03e",
+                            "type": "LOCAL"
+                        }
+                    }
+                }
+            ],
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
@@ -340,6 +438,46 @@
                     "scope": "APP",
                     "name": "displayedUserList",
                     "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "0cec4771-e0ea-4fe7-96fe-cf477e747f5d": {
+                    "scope": "APP",
+                    "name": "is ready",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "25821624-6289-4a50-bd87-d4af3564bcd7": {
+                    "scope": "APP",
+                    "name": "is me",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "df4c361b-02fe-4b7c-a051-5eb5a44aa147": {
+                    "scope": "APP",
+                    "name": "temp message list",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "dc7450a5-1b56-4149-a5fe-e293272d5a77": {
+                    "scope": "APP",
+                    "name": "temp user number",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "82383b47-a8a0-4d7f-93de-5e38dbc1bfff": {
+                    "scope": "APP",
+                    "name": "temp message",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "d0ab2530-4f1d-459a-856b-e60c5cbf319c": {
+                    "scope": "APP",
+                    "name": "messaging User Id",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "12d4f004-a2e3-48ce-8009-e1148ea5c6a0": {
+                    "scope": "APP",
+                    "name": "message text",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "1310a779-d95b-4dc6-9e53-ee71f4ef4a52": {
+                    "scope": "APP",
+                    "name": "message y",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
                 }
             },
             "defaultDesignerDevice": "PHONE",
