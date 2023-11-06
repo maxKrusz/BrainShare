@@ -374,7 +374,7 @@
             "children": [],
             "id": "902613a3-df6d-4df4-bf66-cc8cfb272f63",
             "thunkableVersion": 428,
-            "name": "FriendButton"
+            "name": "AddFriendButton"
         },
         {
             "type": "Button",
