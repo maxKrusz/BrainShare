@@ -6,3 +6,5 @@
 [AC 3](https://docs.google.com/presentation/d/1kEZ42NmXSyEsw3QYqqFBXbs3LQ3kTsv7Jtqfh5bSiKE/edit?usp=sharing)
 ### User Story #4
 [US 4](https://docs.google.com/presentation/d/1JgC04PQfWZPIs5EvjOmKub5hyBLk1JvCzhsq0OvH7Ys/edit?usp=sharing)
+### User Story #1
+[US 1](https://docs.google.com/presentation/d/1UWxiyDE_uxocHMP9mGirbpKfhDTdH76KFVphY5bZhS0/edit?usp=sharing)
