@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-section {
+.common-section {
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -17,6 +17,7 @@ section {
     background: url(background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed; /* Added to make the background fixed */
 }
 
 header {
@@ -25,7 +26,7 @@ header {
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: flex-start; /* Adjusted from space-between to flex-start */
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -37,8 +38,13 @@ header .logo {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1px;
+    display: flex;
+    align-items: center;
 }
 
+header .logo img {
+    margin-left: 10px;
+}
 
 header .navigation a {
     color: #000;
@@ -48,12 +54,12 @@ header .navigation a {
     letter-spacing: 1px;
     padding: 3px 15px;
     border-radius: 20px;
-    margin-left: 60px;
+    margin-left: 30px;
     transition: background 0.3s;
 }
 
 header .navigation a:not(:last-child) {
-    margin-right: 1px;
+    margin-right: 30px;
 }
 
 header .navigation a:hover {
@@ -118,14 +124,9 @@ header .navigation a:hover {
 }
 
 .media-icons a:not(:last-child) {
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .media-icons a:hover {
     transform: scale(1.5);
 }
-
-
-
-
-
