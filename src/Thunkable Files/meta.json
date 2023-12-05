@@ -259,7 +259,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "BrainShareCopy",
+            "projectName": "BrainShare",
             "settings": {
                 "teamId": null,
                 "appName": "BrainShare",
@@ -661,6 +661,11 @@
                     "scope": "APP",
                     "name": "temp message count",
                     "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "eb0ba93d-fb3d-45e6-968a-654c14bf1d6f": {
+                    "scope": "APP",
+                    "name": "debug",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
                 }
             },
             "defaultDesignerDevice": "PHONE",
