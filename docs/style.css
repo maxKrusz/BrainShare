@@ -14,10 +14,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url(background.jpg) no-repeat;
+    background: url(../res/background.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Added to make the background fixed */
+    background-attachment: fixed;
+    /* Added to make the background fixed */
 }
 
 header {

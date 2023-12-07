@@ -97,10 +97,10 @@ For answers to common questions about this code of conduct, see the FAQ at
 
 
 
-<img src ="src/MaxSignature.PNG" width = "400">
+<img src ="src/MaxSignature.png" width = "400">
 
-<img src ="src/McCaffrey_Signature.png" width = "400">
+<img src ="src/JamesSignature.png" width = "400">
 
-<img src ="src/signature.PNG" width = "400">
+<img src ="src/EasonSignature.png" width = "400">
 
-<img src="src/Screenshot 2023-10-10 152228.png" width = "400">
+<img src="src/BenSignature.png" width = "400">
