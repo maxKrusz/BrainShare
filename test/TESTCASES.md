@@ -1,5 +1,5 @@
 ### User Stories with Acceptance Criteria
->b>[User Story #1](https://docs.google.com/presentation/d/1UWxiyDE_uxocHMP9mGirbpKfhDTdH76KFVphY5bZhS0/edit?usp=sharing)</b>
+<b>[User Story #1](https://docs.google.com/presentation/d/1UWxiyDE_uxocHMP9mGirbpKfhDTdH76KFVphY5bZhS0/edit?usp=sharing)</b>
 <b>[User Story #4](https://docs.google.com/presentation/d/1JgC04PQfWZPIs5EvjOmKub5hyBLk1JvCzhsq0OvH7Ys/edit?usp=sharing)</b>
 <b>[User Story #5](https://docs.google.com/presentation/d/12WBJvcReNDXhY_NWyYYgd1npm6jYJVaI7w673mgTcv8/edit?usp=sharing)</b>
 ### User Story #7
