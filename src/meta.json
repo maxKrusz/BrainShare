@@ -1,0 +1,645 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": [
+                        {
+                            "type": "Open AI Services",
+                            "translatedName": "Open AI Service",
+                            "isApi": true,
+                            "reactType": "OpenAIServices",
+                            "properties": {
+                                "APIKey": "{Enter Your API Key Here}"
+                            },
+                            "children": [],
+                            "id": "0e2e82a8-e447-4b38-8670-6b4cb09973ab",
+                            "thunkableVersion": 428,
+                            "name": "Open_AI_Service1"
+                        }
+                    ]
+                }
+            },
+            "assets": {
+                "6536d3d47e3136b28f90c97d": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d3d47e3136b28f90c97d",
+                    "size": "30372",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Untitled_design.png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d3d47e3136b28f90c97d",
+                    "name": "Untitled_design.png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d3d47e3136b28f90c97d",
+                    "createdAt": "2023-10-23T20:13:08.220Z",
+                    "updatedAt": "2023-10-23T20:13:08.220Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d3d47e3136b28f90c97d?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231208%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231208T234252Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=81019d5f30e07b28dbc09524f7befbe8a48b783ab85fe47411b8bf69e9ef6c2c332dada8228caf63adafd431cbf3715e3180f212eab28e906a91372006a3e3d897606b7baac0399dd796f5458722f8864af6eca1057f780ef1f6f101646d1f77489d2edc271e13007eed9849d72b1563f721fd1d8bc4628d2b5b568fbe3e886a0a253707d095afce6a17c78d327310d555898df427f5ca0d498e8c14f96f285c9dfdf8f6b7121783da6e60360ebc8e64af84e80f7731df7189120e59e755911d739d49ba80ff696b6100b7a29bf9c511d01642686403fa05dfb2fe5e44103fd87018784f662d331616b3266e689d7c291535841853d89d76c627efc911de739a",
+                    "signedUrlExpirationTime": 1702251772453
+                },
+                "6536d497a420ab956b690f6f": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d497a420ab956b690f6f",
+                    "size": "30346",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Untitled design.png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d497a420ab956b690f6f",
+                    "name": "Untitled design.png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d497a420ab956b690f6f",
+                    "createdAt": "2023-10-23T20:16:23.975Z",
+                    "updatedAt": "2023-10-23T20:16:23.975Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d497a420ab956b690f6f?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231208%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231208T234252Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=7b3d344476c33328b1268c9f59360d37f64cee53b26a2fdf7e278f09401b26921d2fedce73e6db67ebd62d0855d86f0c5c91f72f354b50801098486f6242908430c2ea3bdd6e73b3e981cf4fc30867d6761ad56091be14cbc5d914fbde23090aa4841223a75bf7f68f8da0b18ddba0885fe2d588cd5faf05dadd01a7471b2bf0e50e24fce35271d851819bba936c6c661402104c4b01f6786e05ac7c4d56533e46468462599fe748980fd8306ef9e00f346d48fd6f686d33b3a9664e51e91017970b13b2a6ad28b274dd6f4d1a95b6ce107954e9469f4a5ec554faf34e0af0cfa01d0bbfb4b421f076cb1ac601ece07053e0f537cf2fdc0aa26d0178d8f3a0c0",
+                    "signedUrlExpirationTime": 1702251772455
+                },
+                "6536d4d8337f8333b83a1e56": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d4d8337f8333b83a1e56",
+                    "size": "62479",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Untitled design (1).png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d4d8337f8333b83a1e56",
+                    "name": "Untitled design (1).png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d4d8337f8333b83a1e56",
+                    "createdAt": "2023-10-23T20:17:29.008Z",
+                    "updatedAt": "2023-10-23T20:17:29.008Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d4d8337f8333b83a1e56?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231208%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231208T234252Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=893538f764d48c442fd743bd6399e9ac3cb127c35c161036bcaa402b61994469a5bb68494bea362d6a99f49a2c3f80e298b4626f233d5d8a5e46258c2a0d79bd2ad4edbec080b7458b7eb5d3d72b962ed7535168ad2165575668c0ce295fc8cb7aee0174fa486564e8df63fe3c0a94d7e082ead5a80e2fb53dce9d47e851104c6e728848ac2a1bea672e3ad1a2ab5ad54fb4385c528404b580388e887da8fcd0d164582f4ba120b9f3aea1aedcc940a378b1a680e31235d96aa3811c0ddf5273aed9ec2bd014b80cf3f85f6d364b76e6969bf8e30be8571053d05dc61804d8e4d8fbb58546ade33c0c9e53171027055fe54d5b344bf2569f7264e2479ba17de9",
+                    "signedUrlExpirationTime": 1702251772457
+                },
+                "6536d8e6337f835b213a356b": {
+                    "externalStorageType": "GCS",
+                    "_id": "6536d8e6337f835b213a356b",
+                    "size": "22783",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "Share (5).png",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/6536d8e6337f835b213a356b",
+                    "name": "Share (5).png",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d8e6337f835b213a356b",
+                    "createdAt": "2023-10-23T20:34:46.829Z",
+                    "updatedAt": "2023-10-23T20:34:46.829Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/6536d8e6337f835b213a356b?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231208%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231208T234252Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=35d337ff7ab617e5d2c5c6245af46bf77892b451b5cbbd256f8a23e809f949387033d402c5314703dba02947abaeb3c3240daa545e253f52f1c910d703dd93ffd1fee85e64c1df26c687d0956a1084e863f653f4d22c7b5ce05d1b00017ad4c8cf2d67bbfd956fe161a6e8c184e463c469ec8619d241b701c0f20a4c5de4daaa545d0d1f95e8f31c2bcfde0969fa4524ba3bcaa6399ee31418ee33f37fc11a5219853943d1035e97c91073a7dc2a42978f53d4a1b32e9e64242c9fb7a78fb0c36f84cd0a950eb5a94e68453286935297dc719a15c9dee526d99e0d85f658dd593c19527650eb236db95270f01e4634f835540bbe020e05fcfe471644b3f9f6a9",
+                    "signedUrlExpirationTime": 1702251772458
+                },
+                "654d1607092d555d12049b1b": {
+                    "externalStorageType": "GCS",
+                    "_id": "654d1607092d555d12049b1b",
+                    "size": "329963",
+                    "mimetype": "application/pdf",
+                    "encoding": "7bit",
+                    "originalname": "305Soft Test Case Template.pdf",
+                    "backendURI": "/project/65313f04d6e7160407101dad/getasset/654d1607092d555d12049b1b",
+                    "name": "305Soft Test Case Template.pdf",
+                    "externalName": "users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/654d1607092d555d12049b1b",
+                    "createdAt": "2023-11-09T17:25:27.707Z",
+                    "updatedAt": "2023-11-09T17:25:27.707Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfcb7a354d2965a9eba4/projects/65313f04d6e7160407101dad/assets/654d1607092d555d12049b1b?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231208%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231208T234252Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=731cc9e987598ed0ff8de54ea22598cefe7d8c2f0a9a08435b2ed313bd5bbd85c8b726d6244f7cde08742844e374f00d60134cd363bf7ae349bde9afdc47c19a11ab7e07f12deeaf3a1ed27ec8603507c1cbe5555af55825d0ad19b89b6e582e5ada9dabb2acfb5ecd8581eaa3af55602ccae1d75cfd06e336da4d2a8a93655a0f6edd4c4c771497b8aa65845615c54ce86c0841a80149c095703ae8c0b72f6730a40ad5173693670ca992b0a61cca02a3f87aeb51496b2fea341bf4737701de7652da25842459e33408de3e49715d8fbd45430cd81d21ffa41416aeae6ae7ada89409468f732dc9230ef71bc7e8f01915410a772b940fa144e394618f04c53a",
+                    "signedUrlExpirationTime": 1702251772460
+                }
+            },
+            "backendUpgradeVersion": 23,
+            "blockly": {
+                "f3dc34f0-88b7-4e2c-8139-c07186aa3697": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "9fb4333a-9397-4d06-8947-057ea9c6d3a8": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "80985e6d-4c3d-4d01-a775-ff69ef694743": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "471836d4-bea7-482e-82ce-2b0b1a0a2327": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "77afbc43-6ee6-4a6d-94e5-7a4e81b47553": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "bb070840-aaac-4db1-a917-8858aea96e4d": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "2fcc6b89-698d-47e1-8291-adf1f81ea858": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "7701c5b6-2ba8-4f5a-a374-c507b54a72fd": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "65313a86d08f1d0c015f1efa": {}
+            },
+            "categories": [
+                "Education"
+            ],
+            "components": {
+                "children": [
+                    {
+                        "id": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                    },
+                    {
+                        "id": "f3dc34f0-88b7-4e2c-8139-c07186aa3697"
+                    },
+                    {
+                        "id": "80985e6d-4c3d-4d01-a775-ff69ef694743"
+                    },
+                    {
+                        "id": "471836d4-bea7-482e-82ce-2b0b1a0a2327"
+                    },
+                    {
+                        "id": "77afbc43-6ee6-4a6d-94e5-7a4e81b47553"
+                    },
+                    {
+                        "id": "bb070840-aaac-4db1-a917-8858aea96e4d"
+                    },
+                    {
+                        "id": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                    },
+                    {
+                        "id": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "BrainShare",
+            "settings": {
+                "teamId": null,
+                "appName": "BrainShare",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": "BrainShare",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyCQt9s-j_4XijqXdASH_CMb-ZQuHw3Zpfk",
+                "firebaseDatabaseURL": "https://brainshare-7963e-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [
+                {
+                    "id": "bb7b2d40-d9a1-4726-85b6-f80b81706db9",
+                    "dataSource": {
+                        "id": "5a71b0c8-7533-4b39-bfcb-2a7d2c41368d",
+                        "name": "messages",
+                        "owner": "64f9cf139e120672bf02d03e",
+                        "collections": [
+                            {
+                                "id": "d34bc05b-df66-4949-b7ec-70025a6603ce",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                        "name": "column1",
+                                        "label": "Column 1",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                        "name": "column2",
+                                        "label": "Column 2",
+                                        "type": "NUMBER"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "f531571e-78c7-4b9d-9914-210ad4a8938f",
+                                            "node": {
+                                                "id": "639d9e8e-149d-4e74-a469-6dc80ce05789",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "1d424269-94a1-4714-b590-287e48f5d163",
+                                            "node": {
+                                                "id": "554c3ae1-7b1b-4422-a868-f43467e7af16",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "4a21675a-8590-4774-90df-5afe3df52c06",
+                                            "node": {
+                                                "id": "b4b57aea-20d9-42ef-95b9-c9dec3661035",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "aeeecda2-c3a2-45a9-9280-e60c8f365730",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "d1d650ef-eb08-4d49-a7fb-2b778f94034f",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "8e2b978b-ae0a-48c8-8a99-8e1a77e52d36",
+                            "name": "messages",
+                            "owner": "64f9cf139e120672bf02d03e",
+                            "type": "LOCAL"
+                        }
+                    }
+                },
+                {
+                    "id": "f742c1f5-a35b-4692-a767-be43c57c0091",
+                    "dataSource": {
+                        "id": "aa314566-71fe-415f-aaf7-5ac3b000ad06",
+                        "name": "fileupload",
+                        "owner": "64f9cfcb7a354d2965a9eba4",
+                        "collections": [
+                            {
+                                "id": "9f58a028-0b2c-477f-b79b-f7c66a4a0c8d",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "0cdd7aad-d43f-42c8-9c80-04a71affd000",
+                                        "name": "column1",
+                                        "label": "Images",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "c5829e2d-4597-41db-97ae-361049cafa45",
+                                            "node": {
+                                                "id": "dd107659-7ab4-48cb-8888-26becf4de862",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "0cdd7aad-d43f-42c8-9c80-04a71affd000",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "40472a01-97d3-48cb-a681-e0c7cabe6da4",
+                                            "node": {
+                                                "id": "c3f023fe-2f95-4165-a211-0f5b7c2c975b",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "0cdd7aad-d43f-42c8-9c80-04a71affd000",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "cursor": "9b62d490-8c43-4b87-9c46-fd84e0e9d685",
+                                            "node": {
+                                                "id": "6b3b80d7-0f7e-41d5-87fc-0d7176c6a27b",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "0cdd7aad-d43f-42c8-9c80-04a71affd000",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "0887fa0f-c1a2-4326-93df-79af5dcdbc71",
+                            "name": "fileupload",
+                            "owner": "64f9cfcb7a354d2965a9eba4",
+                            "type": "LOCAL"
+                        }
+                    }
+                }
+            ],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "3",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "5a851150-1c6f-4937-8c75-6a153ee8d4a6": {
+                    "scope": "APP",
+                    "name": "currentlySigningIn",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "70a5221a-afaa-4641-8b6c-4927e6e9a279": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "731a7e6d-904e-4551-8c2c-935b97da784b": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "8d26ea6b-5a9b-432a-8bcc-baacd51f1293": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "6021f74e-b82b-4a4c-8221-64995c0242ac": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "0a13ff09-2a2c-4619-acf6-9330a4c427d7": {
+                    "scope": "APP",
+                    "name": "userList",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "11d4ec7e-7337-4242-b16a-a73d8aa4b2e4": {
+                    "scope": "APP",
+                    "name": "viewUser",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "8c201262-9e0b-49b6-bfef-a6c9f0d9728f": {
+                    "scope": "APP",
+                    "name": "userIdList",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "3a31fa34-4bd9-4313-a616-1277a0676864": {
+                    "scope": "APP",
+                    "name": "displayedUserList",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "0cec4771-e0ea-4fe7-96fe-cf477e747f5d": {
+                    "scope": "APP",
+                    "name": "is ready",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "df4c361b-02fe-4b7c-a051-5eb5a44aa147": {
+                    "scope": "APP",
+                    "name": "temp message list",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "dc7450a5-1b56-4149-a5fe-e293272d5a77": {
+                    "scope": "APP",
+                    "name": "temp user number",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "82383b47-a8a0-4d7f-93de-5e38dbc1bfff": {
+                    "scope": "APP",
+                    "name": "temp message",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "1310a779-d95b-4dc6-9e53-ee71f4ef4a52": {
+                    "scope": "APP",
+                    "name": "message y",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "e869408f-925e-40a2-8178-6f33e74cfe04": {
+                    "scope": "APP",
+                    "name": "ai temp user number",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "87bc5bc0-080e-47ec-bf72-ae5250a338a3": {
+                    "scope": "APP",
+                    "name": "ai temp message",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "0daf26c9-2876-4865-9325-251404c444c2": {
+                    "scope": "APP",
+                    "name": "ai temp list",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "2c0b4863-6b7d-4ff2-8e2f-31b21c887704": {
+                    "scope": "APP",
+                    "name": "ai last height",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "d0ab2530-4f1d-459a-856b-e60c5cbf319c": {
+                    "scope": "APP",
+                    "name": "messaging User Id",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "98fd111d-4664-453e-a01b-4f9a7762a929": {
+                    "scope": "APP",
+                    "name": "friendList",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "7ca976f4-f423-4d55-b1ca-8633c570554a": {
+                    "scope": "APP",
+                    "name": "friendIdList",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "95ea8c76-fa30-4bb7-972c-41b785937384": {
+                    "scope": "APP",
+                    "name": "previousScreen",
+                    "screenId": "f3dc34f0-88b7-4e2c-8139-c07186aa3697"
+                },
+                "ef3d18f6-39c6-4c57-9a29-7ca6eddd5184": {
+                    "scope": "APP",
+                    "name": "test list",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "e748fb1d-dfd9-44e2-b564-97a69b78ff02": {
+                    "scope": "APP",
+                    "name": "send message test list",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "e66e4806-6629-4511-a5b4-19a80ad92c27": {
+                    "scope": "APP",
+                    "name": "recieve test list",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "b7ac9d98-1386-4592-9cc0-52339f66f707": {
+                    "scope": "APP",
+                    "name": "send and recieve message list 1",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "a6b507b4-1eed-4c1b-be0c-b457643d290f": {
+                    "scope": "APP",
+                    "name": "send and recieve message list 2",
+                    "screenId": "2fcc6b89-698d-47e1-8291-adf1f81ea858"
+                },
+                "655110f6-6ef2-4d2f-bbb8-8fd57259bb21": {
+                    "scope": "APP",
+                    "name": "temp message count",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                },
+                "eb0ba93d-fb3d-45e6-968a-654c14bf1d6f": {
+                    "scope": "APP",
+                    "name": "debug",
+                    "screenId": "9fb4333a-9397-4d06-8947-057ea9c6d3a8"
+                },
+                "af03fd8f-569b-43bc-885b-686b282a08b9": {
+                    "scope": "APP",
+                    "name": "ai is ready",
+                    "screenId": "7701c5b6-2ba8-4f5a-a374-c507b54a72fd"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
