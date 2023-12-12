@@ -96,7 +96,7 @@ def load_xml(data: str) -> str:
     The XML string.
     """
     return data
-
+    
 
 def safe_read_config() -> dict:
     """
@@ -200,20 +200,18 @@ def to_modular_project(project: dict) -> dict:
 
     screens = []
     for screen_or_nav in iproject["components"]["children"]:
-        if "Navigator" in screen_or_nav["name"]:
+        if "Navigator" in screen_or_nav["type"]:
             screens.extend(screen_or_nav["children"])
         else:
             screens.append(screen_or_nav)
-
+    
     for i, screen in enumerate(screens):
         screen_name, screen_id = screen["name"], screen["id"]
         if re.search(r"[^\w\- ]+", screen_name) is not None:
             logging.fatal("Encountered invalid screen name.")
             logging.fatal(f"\tscreen_name = {screen_name}")
             logging.fatal(f"\tscreen_id = {screen_id}")
-            logging.info(
-                "The screen name cannot contain special characters besides '-' and '_'."
-            )
+            logging.info("The screen name cannot contain special characters besides '-' and '_'.")
             exit(1)
         path = f"{screen['name']}.{screen['id']}.json"
         modular_project[path] = copy.deepcopy(screen)
@@ -225,6 +223,10 @@ def to_modular_project(project: dict) -> dict:
     for screen_id in iproject["blockly"]:
         # Ensure that there are actually blocks to extract.
         if "xml" in iproject["blockly"][screen_id]:
+            # If the screen no longer exists, ignore the XML.
+            if screen_id not in screen_id_to_name:
+                # TODO: Clean the dead JSON.
+                continue
             # Add the blocks to the modular project.
             path = f"{screen_id_to_name[screen_id]}.{screen_id}.xml"
             modular_project[path] = iproject["blockly"][screen_id]["xml"]
@@ -239,7 +241,7 @@ def to_modular_project(project: dict) -> dict:
 
 def from_modular_project(modular_project: dict) -> dict:
     modular_project = copy.deepcopy(modular_project)
-
+    
     project = modular_project["meta.json"]
     del modular_project["meta.json"]
 
@@ -247,7 +249,7 @@ def from_modular_project(modular_project: dict) -> dict:
 
     screens = []
     for screen_or_nav in iproject["components"]["children"]:
-        if "name" in screen_or_nav and "Navigator" in screen_or_nav["name"]:
+        if "name" in screen_or_nav and "Navigator" in screen_or_nav["type"]:
             screens.extend(screen_or_nav["children"])
         else:
             screens.append(screen_or_nav)
@@ -270,18 +272,18 @@ def from_modular_project(modular_project: dict) -> dict:
             logging.fatal("Invalid file type encountered in modular project.")
             logging.info(f"\t\tname = {name}")
             exit(1)
-
+    
     return project
 
 
 def delete_path_if_exists(d: dict, path: list):
     if len(path) == 0 or not isinstance(d, dict) or path[0] not in d:
         return
-
+    
     if len(path) == 1:
         del d[path[0]]
         return
-
+    
     delete_path_if_exists(d=d[path[0]], path=path[1:])
 
 
@@ -324,7 +326,9 @@ def to_clean_project(project: dict) -> dict:
     for screen_id in iproject["blockly"]:
         for prop in ["code", "appVariableDefCode"]:
             if prop in iproject["blockly"][screen_id]:
-                dirty_paths.append(["data", "project", "blockly", screen_id, prop])
+                dirty_paths.append(
+                    ["data", "project", "blockly", screen_id, prop]
+                )
 
     for path in dirty_paths:
         delete_path_if_exists(d=project, path=path)
@@ -377,7 +381,7 @@ def pull(project_id: str, path: Path, modular: bool, clean: bool) -> None:
     logging.debug(f"\tpath = {path}")
     logging.debug(f"\tmodular = {modular}")
     logging.debug(f"\tclean = {clean}")
-
+    
     config = safe_read_config()
     logging.debug("Loaded configuration data")
     logging.debug(f"\tconfig = {config}")
@@ -392,20 +396,16 @@ def pull(project_id: str, path: Path, modular: bool, clean: bool) -> None:
 
     if b"project" not in r.content:
         logging.fatal("Failed to pull Thunkable project.")
-        logging.info(
-            "The project_id might be invalid. Check that the project_id is valid."
-        )
+        logging.info("The project_id might be invalid. Check that the project_id is valid.")
         logging.info("The thunk_token might have expired. Reset the thunk_token.")
         exit(1)
-
+    
     project = load_json(r.content)
     logging.debug(f"\tproject = {project}")
 
     if "errors" in project:
         logging.fatal("Failed to pull Thunkable project.")
-        logging.info(
-            "The project_id might be invalid. Check that the project_id is valid."
-        )
+        logging.info("The project_id might be invalid. Check that the project_id is valid.")
         logging.info("The thunk_token might have expired. Reset the thunk_token.")
         exit(1)
 
@@ -447,7 +447,7 @@ def push(project_id: str, path: str, modular: bool) -> None:
         project = load_json(path.joinpath("meta.json").read_text())
         logging.debug("Loaded project")
         logging.debug(f"\tproject = {project}")
-
+    
     request = build_push_request(project_id=project_id, project=project, config=config)
     logging.debug("Built request")
     logging.debug(f"\trequest = {request}")
@@ -458,9 +458,7 @@ def push(project_id: str, path: str, modular: bool) -> None:
 
     if b"hash" not in r.content:
         logging.fatal("Failed to push Thunkable project.")
-        logging.info(
-            "The project_id might be invalid. Check that the project_id is valid."
-        )
+        logging.info("The project_id might be invalid. Check that the project_id is valid.")
         logging.info("The thunk_token might have expired. Reset the thunk_token.")
         exit(1)
 
@@ -476,27 +474,22 @@ def configure(variable: str, value: str) -> None:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="Thunkd", description="Pull and push Thunkable projects."
+        prog="Thunkd",
+        description="Pull and push Thunkable projects."
     )
     subparsers = parser.add_subparsers(metavar="command", required=True)
 
     pull_parser = subparsers.add_parser("pull")
     pull_parser.add_argument("project_id", type=str)
     pull_parser.add_argument("path", type=Path)
-    pull_parser.add_argument(
-        "--modular", required=False, default=True, action=argparse.BooleanOptionalAction
-    )
-    pull_parser.add_argument(
-        "--clean", required=False, default=True, action=argparse.BooleanOptionalAction
-    )
+    pull_parser.add_argument('--modular', required=False, default=True, action=argparse.BooleanOptionalAction)
+    pull_parser.add_argument('--clean', required=False, default=True, action=argparse.BooleanOptionalAction)
     pull_parser.set_defaults(func=pull)
 
     push_parser = subparsers.add_parser("push")
     push_parser.add_argument("project_id", type=str)
     push_parser.add_argument("path", type=Path)
-    push_parser.add_argument(
-        "--modular", required=False, default=True, action=argparse.BooleanOptionalAction
-    )
+    push_parser.add_argument('--modular', required=False, default=True, action=argparse.BooleanOptionalAction)
     push_parser.set_defaults(func=push)
 
     configure_parser = subparsers.add_parser("set")
