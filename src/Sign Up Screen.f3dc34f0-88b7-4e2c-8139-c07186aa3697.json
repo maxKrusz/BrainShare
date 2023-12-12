@@ -31,12 +31,12 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(255, 255, 255, 1)"
+            "backgroundColor": "rgba(172, 180, 243, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "StatusBarColor": "rgba(172, 180, 243, 1)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -45,7 +45,7 @@
         "DesignerWidth": 375,
         "ResponsiveWidth": 375,
         "isSimple": true,
-        "BackgroundColor": "rgba(255, 255, 255, 1)"
+        "BackgroundColor": "rgba(172, 180, 243, 1)"
     },
     "children": [
         {
@@ -199,7 +199,7 @@
                     "translatedName": "Button",
                     "properties": {
                         "Text": "Sign In",
-                        "TextColor": "rgba(74, 144, 226, 1)",
+                        "TextColor": "rgba(255, 255, 255, 1)",
                         "FontSize": 16,
                         "CustomFont": "",
                         "BackgroundColor": "rgba(0, 0, 0, 0)",
@@ -326,7 +326,7 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 44,
                 "Width": 193,
                 "Visible": true,

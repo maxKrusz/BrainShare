@@ -30,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(172, 180, 243, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -53,7 +54,8 @@
             "headerStyle": {}
         },
         "tabNavigationOptions": {},
-        "Scrollable": true
+        "Scrollable": true,
+        "BackgroundColor": "rgba(172, 180, 243, 1)"
     },
     "children": [
         {
@@ -194,7 +196,7 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 75,
                 "Visible": true,
@@ -248,7 +250,7 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 75,
                 "Visible": true,
@@ -302,7 +304,7 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 75,
                 "Visible": true,
@@ -356,7 +358,7 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 75,
                 "Visible": true,
@@ -409,13 +411,13 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 71,
                 "Visible": true,
-                "X": 281,
+                "X": 290,
                 "Y": 160,
-                "RelativeX": 281,
+                "RelativeX": 290,
                 "RelativeY": 160,
                 "ResizeMode": "STRETCH",
                 "style": {
@@ -534,7 +536,7 @@
                 "NumberOfLines": 100,
                 "LineHeight": 1,
                 "Color": "rgba(255, 255, 255, 1)",
-                "BackgroundColor": "rgba(74, 144, 226, 1)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 200,
                 "Visible": true,
@@ -579,7 +581,7 @@
                     "top": "45.48663778462331%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "backgroundColor": "rgba(74, 144, 226, 1)"
+                    "backgroundColor": "rgba(99, 102, 104, 1)"
                 },
                 "ParentId": "2fcc6b89-698d-47e1-8291-adf1f81ea858",
                 "position": "absolute",
@@ -597,17 +599,17 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "send",
+                "Text": "Send",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "BackgroundColor": "rgba(99, 102, 104, 1)",
                 "Height": 50,
                 "Width": 71,
                 "Visible": true,
-                "X": 282,
+                "X": 290,
                 "Y": 104,
-                "RelativeX": 282,
+                "RelativeX": 290,
                 "RelativeY": 104,
                 "ResizeMode": "STRETCH",
                 "style": {
