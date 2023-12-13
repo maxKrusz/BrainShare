@@ -132,7 +132,7 @@ header .navigation a:hover {
     transform: scale(1.5);
 }
 
-.screenshot {
+.content .info .screenshot {
     width: 35%;
     height: 35%;
     border-radius: 20px;
