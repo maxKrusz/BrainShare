@@ -104,3 +104,9 @@ For answers to common questions about this code of conduct, see the FAQ at
 <img src ="res/EasonSignature.png" width = "400">
 
 <img src="res/BenSignature.png" width = "400">
+
+
+# Testers
+
+    Download the app via the link provided in your email. Must be signed into the whitelisted google account associated with the email recieving the link.
+    Alternatively, request APK / AAB file. 
